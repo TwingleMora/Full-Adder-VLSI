@@ -1,0 +1,44 @@
+OK
+VERSION          2
+TIME_NUMBER 5576976870
+LAYER_COUNT         31
+VIACOR_COUNT          6
+FIELD_NAMES drc_layer_nb layer_name
+         0 ChipSubstrate
+         2 NWell
+         3 Substrate
+         6 NWellWire
+         9 DeepNWellWire
+        17 NDiff
+        20 PDiff
+        26 ActiveContact
+        27 PolyContact
+        30 PolyWire
+        40 PWell
+        44 Via3NoCap
+        60 Metal3
+        79 Metal1
+        87 Via1
+        89 Metal2
+        93 Via2
+        97 Metal4
+       113 XCALIBRATE__Active
+       116 XCALIBRATE__PolyWire
+       119 XCALIBRATE__Metal1
+       122 XCALIBRATE__Metal2
+       125 XCALIBRATE__Metal3
+       128 XCALIBRATE__Metal4
+       131 XCALIBRATE__NDiff
+       134 XCALIBRATE__PDiff
+       655 XCALIBRATE__ActiveContact
+       657 XCALIBRATE__PolyContact
+       659 XCALIBRATE__Via1
+       661 XCALIBRATE__Via2
+       663 XCALIBRATE__Via3NoCap
+VIACOR_FIELD_NAMES VIA_drc_layer_nb LAYER1_drc_layer_nb LAYER2_drc_layer_nb CONNECT_RULE_nb
+26  17  79  5
+26  20  79  6
+27  30  79  7
+87  79  89  8
+93  60  89  9
+44  60  97  10

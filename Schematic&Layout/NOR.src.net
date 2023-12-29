@@ -1,0 +1,48 @@
+* SPICE export by:      S-Edit 2022.2.3
+* Export time:          Fri Dec  1 21:43:40 2023
+* Design path:          /home/vlsi/Desktop/GROUP__1_PROJECT/lib.defs
+* Library:              GROUP__1_PROJECT
+* Cell:                 NOR
+* Testbench:            Spice
+* View:                 schematic
+* Export as:            subcircuit definition
+* Export mode:          hierarchical
+* Exclude empty:        no
+* Exclude .model:       no
+* Exclude .hdl:         no
+* Exclude .end:         no
+* Expand paths:         no
+* Wrap lines:           no
+* Exclude simulator commands:  no
+* Exclude global pins:         no
+* Exclude instance locations:  no
+* Control property name(s):    LVS SPICE
+
+.SUBCKT NMOS25 D G S B
+.ENDS
+.SUBCKT PMOS25 D G S B
+.ENDS
+.SUBCKT NMOS33 D G S B
+.ENDS
+.SUBCKT PMOS33 D G S B
+.ENDS
+
+*************** Subcircuits ***************
+.subckt NOR A B Out Gnd Vdd 
+* Library name: GROUP__1_PROJECT
+* Cell name: NOR
+* View name: schematic
+* PORT=Out TYPE=Out
+* PORT=Vdd TYPE=Other
+* PORT=A TYPE=In
+* PORT=B TYPE=In
+* PORT=Gnd TYPE=Other
+
+MMn1 Out B Gnd Gnd NMOS25 w=1.5u l=250n m=1 ad=975f pd=4.3u as=975f ps=4.3u nrd=433.33333m nrs=433.33333m mult=1 delvto=0 mulu0=1 $ $x=4700 $y=1800 $w=400 $h=600
+MMn2 Out A Gnd Gnd NMOS25 w=1.5u l=250n m=1 ad=975f pd=4.3u as=975f ps=4.3u nrd=433.33333m nrs=433.33333m mult=1 delvto=0 mulu0=1 $ $x=3500 $y=1800 $w=400 $h=600
+MMp1 Out B N_1 Vdd PMOS25 w=1.5u l=250n m=1 ad=975f pd=4.3u as=975f ps=4.3u nrd=433.33333m nrs=433.33333m mult=1 delvto=0 mulu0=1 $ $x=4100 $y=3600 $w=400 $h=600
+MMp2 N_1 A Vdd Vdd PMOS25 w=1.5u l=250n m=1 ad=975f pd=4.3u as=975f ps=4.3u nrd=433.33333m nrs=433.33333m mult=1 delvto=0 mulu0=1 $ $x=4100 $y=4400 $w=400 $h=600
+.ends
+
+
+

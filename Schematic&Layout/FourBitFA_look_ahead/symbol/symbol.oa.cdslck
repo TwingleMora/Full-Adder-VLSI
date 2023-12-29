@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      HI_Tech
+HostName                       DESKTOP-8VG2SFO
+ProcessIdentifier              18140
+ProcessCreationTime_UTC        1703127732
+ProcessCreationTime_Readable   Thu Dec 21 05:02:12 2023 Egypt Standard Time
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         E:\Careeeeeeeeeer\Spice\Projects\Tanner\TR\FourBitFA_look_ahead\symbol\symbol.oa.cdslck
+TimeEditLocked                 Thu Dec 21 05:29:15 2023 Egypt Standard Time

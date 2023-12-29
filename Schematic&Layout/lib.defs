@@ -1,0 +1,6 @@
+ASSIGN GROUP__1#20PROJECT libMode shared
+INCLUDE /eda/Mentor/Tanner/TannerTools_v2022.2/Process/Standard_Libraries/lib.defs
+INCLUDE /eda/Mentor/Tanner/TannerTools_v2022.2/Process/Standard_Libraries/analogLib/lib.defs
+INCLUDE /eda/Mentor/Tanner/TannerTools_v2022.2/Process/Generic_250nm/lib.defs
+DEFINE GROUP__1_PROJECT ../GROUP__1_PROJECT
+ASSIGN GROUP__1_PROJECT libMode shared

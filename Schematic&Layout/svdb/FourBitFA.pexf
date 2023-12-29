@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /home/vlsi/Desktop/GROUP__1_PROJECT
+pex_PexParam LAYOUT_PRIMARY FourBitFA
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {FourBitFA "" FourBitFA.pdb "" } } 

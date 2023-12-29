@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1701542812 1701542812
+lvs_ExtOutFile RUNDIR /home/vlsi/Desktop/GROUP__1_PROJECT
+lvs_ExtOutFile RULES_FILE _Generic_250nm_LVS.cal_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST OneBitFA.sp
+lvs_ExtOutFile EXTRACTION_REPORT OneBitFA.lvs.report.ext

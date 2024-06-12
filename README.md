@@ -1,1 +1,1 @@
-This Project Is Made Using Tanner EDA
+This project was made using Tanner EDA
